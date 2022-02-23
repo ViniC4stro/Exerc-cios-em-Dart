@@ -12,13 +12,13 @@ void main() {
 
   double media = (nota1 + nota2 + nota3) / 3;
 
-  if (media > 7) {
+  if (media > 7) { //se
     print("Sua nota foi: " + media.toStringAsFixed(1) + ", você foi aprovado!");
 
-  } else if (media > 5 && media < 7) {
+  } else if (media > 5 && media < 7) { //senao se
     print("Sua nota foi: " + media.toStringAsFixed(1) + ", você está de recuperação");
     
-  } else {
+  } else { //se
     print("Sua nota foi: " + media.toStringAsFixed(1) + ", você está reprovado!");
   }
 }
